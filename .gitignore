@@ -1,0 +1,7 @@
+echo "# repositorio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/grupoTrabajoIS/repositorio.git
+git push -u origin master
+sudo apt-get install git
